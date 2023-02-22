@@ -14,12 +14,12 @@
 }
 
  .text{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 700;
     font-size: 40px;
     width: 500px;
-    height: 100px;
+    height: 150px;
     background: linear-gradient(180deg, #FF8DF4 0%, #9640DA 100%);
     border: 5px solid #000000;
     border-radius: 20px;
@@ -27,4 +27,16 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    
  }
+
+ .text:active{
+    transform: scale(0.98);
+    
+ }
+
+ .text:hover{
+    box-shadow: 0px 0px 80px #9640DA;
+
+ }
+ 
